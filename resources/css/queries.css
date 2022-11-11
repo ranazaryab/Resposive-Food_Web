@@ -1,0 +1,140 @@
+
+@media only screen and (max-width: 1200px){
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row{ padding: 0 2%;}
+}
+
+
+@media only screen and (max-width: 1023px){
+    body{ font-size: 18px;
+        overflow-x: hidden;}
+    section{padding: 60px 0;}
+    h3{
+        font-size: 85%;
+        font-weight: 400;
+    }
+    .section-para{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .app-screen{
+        width: 50%;
+    }
+    .box-step:first-child{
+        margin-top: 40px;
+    }
+    .box-step:last-child{
+        margin-top: 45px;
+    }
+    .steps{
+        margin-bottom: 30px;
+    }
+    .steps:last-of-type{
+        margin-bottom: 50px;
+    }
+    .app-btn img{
+        width: auto;
+        height: 50px;
+        margin-right: 5px;
+    }
+    .city-features i{
+        width: 17px;
+        font-size: 120%;
+        margin-right: 2px;
+    }
+    .city-features{ font-size: 80%; }
+    .testimonial-para{
+       line-height: 180%;
+       font-size: 95%;
+    }
+    .testimonial-para i{
+        font-size: 25px;
+    }
+    .plan-box{
+        width: 100%;
+        margin-left: 0;
+    }
+    .plan-price{
+        font-size: 250%;
+        font-weight: 300;
+    }
+    .contact-form{width: 80%;}
+    footer{
+        font-size: 70%;
+    }
+}
+
+
+@media only screen and (max-width: 767px){
+    body{font-size: 16px;
+    overflow-x: hidden;}
+    section{padding: 40px 0;}
+    .row,
+    .hero-text-box{padding: 0 4px;}
+    .col{width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    .main-nav{display: none;}
+
+    .mobile-nav-icon{
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .main-nav{
+        float: left;
+        margin-top: 35px;
+        margin-left: 25px;
+    }
+    .main-nav li{display: block;}
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display: block;
+        border: 0;
+        padding: 5px 0;
+        font-size: 100%;
+    }
+
+
+    .hero-text-box,
+    .logo{margin-left: 10px;}
+    h1{font-size: 180%;}
+    h2{font-size: 150%;}
+
+    .section-features .box h3,
+    .section-features .box i{
+        text-align: center;
+    }
+
+    .testimonial-img{
+        text-align: center;
+        margin-right: 140px;
+    }
+
+    .box-step:first-child{ text-align: center;
+    margin-top: 20px;}
+    .steps{
+        margin-bottom: 50px;
+    }
+    .app-screen{ width: 40%;}
+}
+
+
+@media only screen and (max-width: 480px){
+    body{overflow-x: hidden;}
+    .btn{margin-bottom: 10px;}
+    section{padding: 25px 0;}
+    .hero-text-box{margin-top: 40px;}
+    .contact-form{width: 100%;}
+    .footer-nav li,
+    .social-link li{
+    margin-left: 10px;
+}
+.testimonial-img{
+    margin-right: 60px;
+}
+}
